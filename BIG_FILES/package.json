@@ -1,0 +1,35 @@
+{
+  "name": "csv-processor",
+  "version": "1.0.0",
+  "description": "CSV processor for large files with random data generation and aggregation",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "generate": "ts-node src/generateData.ts",
+    "process": "ts-node src/processData.ts"
+  },
+  "keywords": [
+    "csv",
+    "data-processing",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^20.0.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "test": "^3.3.0"
+  }
+}
