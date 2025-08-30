@@ -1,0 +1,21 @@
+{
+  "name": "criptografia-lib",
+  "version": "1.0.0",
+  "description": "Librería criptográfica en JavaScript con funciones de hash, encriptación y generación de claves",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "start": "node main.js",
+    "dev": "node --watch main.js"
+  },
+  "keywords": ["cryptography", "encryption", "hash", "security", "javascript"],
+  "author": "AI Assistant",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1"
+  }
+}
